@@ -1,4 +1,4 @@
-package personal.mail;
+package enums;
 
 import lombok.*;
 
@@ -16,6 +16,7 @@ public class Person {
     @NonNull
     private String name;
     private int salary;
+    private MaritalStatus maritalStatus;
 
     @Singular
     private Map<String, Integer> beers;
