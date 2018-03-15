@@ -22,6 +22,7 @@ public class AlarmClockImpl implements AlarmClock{
     public AlarmClockImpl(Alarm alarm,Clock clock) {
         this.alarm =alarm;
         this.clock=clock;
+        System.out.println("constructor AlarmClock done");
     }
 
     @Override
